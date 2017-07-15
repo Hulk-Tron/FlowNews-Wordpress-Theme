@@ -1,0 +1,248 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,300,600,400);
+body {
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+	font-size: 14px;
+	line-height: 1.6em;
+	font-weight: 400;
+	color: #636363;
+}
+
+::-moz-selection{
+	background:#ff531a !important;
+	color:#FFFFFF;
+}
+
+::selection{
+	background:#ff531a !important;
+	color:#FFFFFF;
+}
+
+
+/* Documenter sidebar styles */
+#documenter_sidebar {
+	color: #636363 !important;
+}
+
+#documenter_sidebar #documenter_logo {
+	background-color: #4591a1;
+	width: 100%;
+}
+
+#documenter_sidebar ul {
+	border: none !important;
+	margin-top: 40px;
+}
+#documenter_sidebar ul li,
+#documenter_sidebar ul a,
+#documenter_copyright {
+	text-align: left;
+}
+
+#documenter_sidebar {
+	width: 230px;
+	box-shadow: none;
+	background-color: #54a2af !important;
+}
+
+#documenter_sidebar ul a {
+	background: none !important;
+}
+
+#documenter_sidebar ul#documenter_nav a {
+	padding: 10px 27px;
+	font-size: 13px;
+	font-weight: 400;
+	color: #fff;
+	text-shadow: none !important;
+	border: none !important;
+}
+
+#documenter_sidebar ul#documenter_nav a:hover {
+	background-color: #60b9c8 !important;
+}
+
+#documenter_sidebar ul#documenter_nav a.current {
+	color: #fff;
+	background-color: #ff7547 !important;
+}
+
+#documenter_copyright {
+	font-size: 12px;
+	right: auto;
+	left: 25px;
+	color: #fff;
+}
+
+#documenter_copyright a {
+	color: #fff;
+}
+
+/* Documenter content styles */
+#documenter_content {
+	background-color: #fff;
+	padding-left: 100px;
+	padding-right: 47px;
+	position: relative;
+	left: 0;
+	margin-left: 230px;
+}
+
+#documenter_content p {
+	line-height: 1.6em;
+}
+
+#documenter_content img {
+	margin-right: 20px;
+	margin-bottom: 20px;
+	/*border: 1px solid #ddd;*/
+}
+
+#documenter_content > section > .page-header {
+	margin-bottom: 20px;
+}
+
+#documenter_content > section > .page-header {
+	padding: 28px 64px 28px 175px;
+	background-color: #ffefea;
+	position: relative;
+}
+
+#documenter_content > section > .page-header h3 {
+	font-size: 45px;
+	line-height: 1.5em;
+	font-weight: 400;
+	color: #ff531a;
+	margin: 0;
+}
+
+#documenter_content > section > .page-header h3:before {
+	content: '';
+	position: absolute;
+	width: 135px;
+	height: 100%;
+	background: #ff7547 url("http://demo.elated-themes.com/quantity-help/logo-small.png") 50% no-repeat;
+	left: 0;
+	top: 0;
+}
+
+#documenter_content > section > .page-header > hr {
+	display: none;
+}
+
+#documenter_content h4 {
+	color: #4591a1;
+	font-size: 30px;
+	line-height: 1.5em;
+	font-weight: 700;
+	margin: 65px 0;
+	border-left: 3px solid;
+	padding-left: 1em;
+}
+
+#documenter_content h5 {
+	color: #636363;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 35px 0;
+}
+
+#documenter_content h6 {
+	color: #636363;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+#documenter_content a {
+	color: #4591a1;
+	text-decoration: none;
+}
+
+#documenter_content ol,
+#documenter_content ul {
+	margin: 30px 0;
+}
+
+#documenter_content ol ul,
+#documenter_content ul ul,
+#documenter_content ol ol,
+#documenter_content ul ol {
+	margin: 10px 0;
+}
+
+#documenter_content ol li,
+#documenter_content ul li {
+	margin-bottom: 10px;
+}
+
+#documenter_cover {
+	height: 960px !important;
+	margin: 0 -47px 0 -100px;
+	padding: 116px 47px 0 100px;
+	background: #f0f0f0 url("http://demo.elated-themes.com/quantity-help/cover-logo-bg.png") no-repeat 100% 0;
+}
+
+#documenter_content div.alert {
+	padding: 20px;
+	background-color: #fff2c4;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border: none;
+	border-left: 2px solid #b4af9c;
+	color: #797979;
+}
+
+#documenter_content li div.alert {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+#documenter_content div.alert p {
+	margin: 0;
+}
+
+#documenter_cover h1 {
+	font-weight: 300;
+	color: #808080;
+	font-size: 32px;
+}
+
+#documenter_cover hr {
+	display: none;
+}
+
+#documenter_cover h2 {
+	margin: 90px 0;
+	font-size: 45px;
+	line-height: 1.5em;
+	font-weight: 600;
+	color: #4591a1;
+}
+
+#documenter_cover ul {
+	border-left: 3px solid #4591a1;
+	padding-left: 32px;
+}
+
+#documenter_cover ul,
+#documenter_cover p {
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	color: #808080;
+}
+
+#documenter_cover p {
+	width: auto;
+}
+
+#documenter_cover ul li {
+	margin-bottom: 15px;
+}
+
+#documenter_cover ul li a {
+	text-transform: none;
+}
+
